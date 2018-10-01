@@ -1,5 +1,5 @@
-<h1 align="center"> 免责声明 </h1>
 
+<h1 align="center"> 免责声明 </h1>
 
 <p align="center">
 只面向海外华人用户且仅供科研学习之用，切勿用于其他用途
@@ -9,7 +9,7 @@
 <hr>
 
  
-
+ 
 # v2ray 部署在 openshift starter
 鉴于转载网友太多，甚至还发到了国内网站上宣传，为避免不必要麻烦，本次对镜像名称进行更改！
 
@@ -23,8 +23,16 @@ Docker 镜像搜索：veip007/openshift     或者doudoubing/openshift
 
 客户端： android Actinium、windows v2ray 可用同一个服务端。
 
+
+
+
 CONFIG_JSON配置文件
 
 { "log": { "loglevel": "warning" }, "inbound": { "protocol": "vmess", "port": 8080, "settings": { "clients": [ { "id": "uuid", "alterId": 233, "security": "aes-128-gcm" } ] }, "streamSettings": { "network": "ws" } }, "inboundDetour": [], "outbound": { "protocol": "freedom", "settings": {} } }
 
+
+
 PC端配置： 端口443 底层传输安全tls
+
+
+
